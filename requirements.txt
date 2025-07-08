@@ -7,4 +7,5 @@ Flask-SQLAlchemy
 python-dotenv
 email-validator
 flask-bcrypt
+PyJWT
 
