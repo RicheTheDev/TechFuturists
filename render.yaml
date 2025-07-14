@@ -15,7 +15,7 @@ services:
     startCommand: python3 run.py
     envVars:
       - key: DATABASE_URL
-        value: postgresql://postgres:Ulrich_@2025@db.hmptliikznipedvucvwp.supabase.co:5432/postgres
+        value: postgresql://postgres:Ulrich2025@db.ywlekfislmfemikrcgvh.supabase.co:5432/postgres
         sync: false
       - key: FLASK_ENV
         value: production
