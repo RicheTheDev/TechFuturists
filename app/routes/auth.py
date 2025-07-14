@@ -91,7 +91,7 @@ def register():
             first_name=first_name,
             last_name=last_name,
             email=email,
-            role=RoleEnum.Participant # par défaut participant
+            role=RoleEnum.Participant  # Rôle par défaut participant
         )
         new_user.set_password(password)
 
