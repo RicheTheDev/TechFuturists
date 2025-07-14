@@ -21,7 +21,7 @@ mail = Mail()
 def create_app():
     app = Flask(__name__)
     app.config.from_object('config.Config')
-    app.config['SECRET_KEY'] = 'votre_clé_secrète_ultra_secrète'
+    # app.config['SECRET_KEY'] = 'votre_clé_secrète_ultra_secrète'
     UPLOAD_FOLDER = os.path.join(basedir, 'static', 'uploads')
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 

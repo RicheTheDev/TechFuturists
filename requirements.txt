@@ -9,3 +9,4 @@ email-validator
 flask-bcrypt
 PyJWT
 psycopg2-binary
+Flask-Migrate
